@@ -9,7 +9,11 @@ class AppTextStyles{
     fontSize: 34,
     color: AppColor.grey3FColor,
   );
-
+  static const TextStyle grey3FBold28= TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: 28,
+    color: AppColor.grey3FColor,
+  );
   static const TextStyle grey3FBold20= TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: 20,
@@ -34,6 +38,17 @@ class AppTextStyles{
     color: AppColor.grey5AColor,
   );
 
+  static const TextStyle greyA0Light16 = TextStyle(
+    fontWeight: FontWeight.w300,
+    fontSize: 16,
+    color: AppColor.greyA0Color,
+  );
+
+  static const TextStyle greyA0Regular14 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: 14,
+    color: AppColor.greyA0Color,
+  );
   static const TextStyle greyA1Regular16 = TextStyle(
     fontWeight: FontWeight.w400,
     fontSize: 16,

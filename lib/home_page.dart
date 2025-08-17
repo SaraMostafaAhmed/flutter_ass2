@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ass2/core/colors.dart';
 import 'package:flutter_ass2/course_details.dart';
+import 'package:flutter_ass2/meditate_page.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
@@ -9,7 +10,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(scaffoldBackgroundColor: AppColor.primary ,fontFamily: "HelveticaNeue"),
-      home: CourseDetails(),
+      home: MeditatePage(),
 
     );
   }

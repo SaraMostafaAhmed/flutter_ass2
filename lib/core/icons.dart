@@ -15,4 +15,12 @@ class AppIcon {
   static String backIcon = '${imapesPath}back.svg';
   static String playBlueIcon = '${imapesPath}playBlue.svg';
   static String playGreyIcon = '${imapesPath}playGrey.svg';
+  static String playSolidGreyIcon = '${imapesPath}playSolidGrey.svg';
+  static String allIcon = '${imapesPath}all.svg';
+  static String anxiousIcon = '${imapesPath}anxious.svg';
+  static String kidsIcon = '${imapesPath}kids.svg';
+  static String myIcon = '${imapesPath}my.svg';
+  static String sleepIcon = '${imapesPath}sleep.svg';
+  static String backgroundBlueIcon = '${imapesPath}background.svg';
+  static String backgroundGreyIcon = '${imapesPath}backgroundGrey.svg';
 }
